@@ -15,7 +15,7 @@ git reset HEAD <file>
 
 git check-out -- <file>
 
-# the same as (git restore <file>)
+# the same as (git restore <file> to get files in local repository)
 
 git log --oneline --graph --decorate --all
 git config --global alias.<name> "<command> except git"
@@ -27,3 +27,7 @@ git commit -m "move file"
 
 git rm <file> <new_file>(in staging area or in local repository)
 git commit -m "remove file"
+
+# Add changes from all tracked files and untracked files
+
+git add -A
