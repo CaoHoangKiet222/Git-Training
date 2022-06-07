@@ -28,6 +28,10 @@ git commit -m "move file"
 git rm <file> <new_file>(in staging area or in local repository)
 git commit -m "remove file"
 
+# Update all tracked files
+
+git add -u .
+
 # Add changes from all tracked files and untracked files
 
 git add -A
