@@ -1,3 +1,3 @@
 # LICENSE.md
 
-LICENSE added
+LICENSE added and deleted
