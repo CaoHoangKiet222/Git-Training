@@ -24,3 +24,6 @@ git config --global alias.<name> "<command> except git"
 
 git mv <file> <new_file>(just in stage changes not in local repository)
 git commit -m "move file"
+
+git rm <file> <new_file>(just in stage changes not in local repository)
+git commit -m "remove file"
