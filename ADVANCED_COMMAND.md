@@ -20,3 +20,7 @@ git switch <branch>
 # Delete branch
 
 git branch -d <branch>
+
+# Merge two branch with fast-forward
+
+git merge <branch>
