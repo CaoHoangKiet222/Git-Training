@@ -16,3 +16,7 @@ git checkout -b <new_branch>
 
 git checkout <branch>
 git switch <branch>
+
+# Delete branch
+
+git branch -d <branch>
