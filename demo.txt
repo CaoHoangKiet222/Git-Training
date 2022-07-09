@@ -1,5 +1,6 @@
 This is demo file
 
+<<<<<<< HEAD
 add updates
 askldjfklasdfsjdflsdfasdfasdfasdf
 very-bad
@@ -7,3 +8,6 @@ very-bad
 ggggggggggggggggggggggggg
 
 yooo ban oi
+=======
+hello
+>>>>>>> refs/remotes/origin/master
