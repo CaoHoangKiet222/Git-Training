@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-"sssssssssssssssssssssssss"
-=======
-This is demo file
-
-<<<<<<< HEAD
-add updates
-askldjfklasdfsjdflsdfasdfasdfasdf
-very-bad
-
-ggggggggggggggggggggggggg
-
-yooo ban oi
-=======
-hello
->>>>>>> refs/remotes/origin/master
->>>>>>> master
+This is demo file skdfjaslkdfsad
+ssssssssssssss
+sssssssssfffffffffffffffd
