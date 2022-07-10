@@ -75,6 +75,9 @@ git stash pop <stash_name>
 ## Fetch
 
 git fetch
+
+# Delete local branch from remote
+
 git fetch -p (Before fetching, remove any remote-tracking references that no longer exist on the remote)
 
 ## Delete remote branch from local
