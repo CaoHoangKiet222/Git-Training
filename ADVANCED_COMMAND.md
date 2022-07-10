@@ -1,4 +1,4 @@
-# ADVANCED_COMMAND.md
+# ADVANCED_COMMAND
 
 # Different
 
@@ -6,21 +6,78 @@ git diff
 
 # Branch
 
-git branch -> list all branches
+## List Branches
 
-# Create new branch and switch to it
+git branch
+git branch -a (remote and local)
 
-git checkout -b <new_branch>
+## Create new branch and switch
 
-# Switch to branch
+git checkout -b <branch_name>
 
-git checkout <branch>
-git switch <branch>
+## Switch to new branch
 
-# Delete branch
+git checkout <branch_name>
+git switch <branch_name>
 
-git branch -d <branch>
+## Delete branch
 
-# Merge two branch with fast-forward
+git branch -d <branch_name>
 
-git merge <branch>
+# Merge
+
+git merge <branch_name> -> (merge <branch_name> to current branch)
+
+# Fix conflicts when merging
+
+## Check where conficts were
+
+git log --merge
+
+## Cancel~Abort current merge
+
+git merge --abort
+
+## Fix merging conflicts
+
+git commit -am "Resloved conflicts"
+
+(git add and git commit to resolve conflicts)
+
+# Tag
+
+## List tags
+
+git tag -l
+
+## Annotated tag
+
+git tag -a <tagname> -m "tag commit"
+
+## Lightweight tag
+
+git tag <tagname>
+
+## Delete tag
+
+git tag -d <tagname>
+
+# Stash
+
+## List Stashes
+
+git stash list
+
+## Apply and Drop a stash
+
+git stash pop <stash_name>
+
+## Fetch
+
+git fetch
+git fetch -p (Before fetching, remove any remote-tracking references that no longer exist on the remote)
+
+## Delete remote branch from local
+
+git branch -D <branch>
+git push origin :<branch>
