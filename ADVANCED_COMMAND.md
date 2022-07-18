@@ -1,10 +1,10 @@
 # ADVANCED_COMMAND
 
-# Different
+## Different
 
 git diff
 
-# Branch
+## Branch
 
 ## List Branches
 
@@ -24,11 +24,11 @@ git switch <branch_name>
 
 git branch -d <branch_name>
 
-# Merge
+## Merge
 
 git merge <branch_name> -> (merge <branch_name> to current branch)
 
-# Fix conflicts when merging
+## Fix conflicts when merging
 
 ## Check where conficts were
 
@@ -44,7 +44,7 @@ git commit -am "Resloved conflicts"
 
 (git add and git commit to resolve conflicts)
 
-# Tag
+## Tag
 
 ## List tags
 
@@ -62,7 +62,7 @@ git tag <tagname>
 
 git tag -d <tagname>
 
-# Stash
+## Stash
 
 ## List Stashes
 
@@ -76,7 +76,7 @@ git stash pop <stash_name>
 
 git fetch
 
-# Delete local branch from remote
+## Delete local branch from remote
 
 git fetch -p (Before fetching, remove any remote-tracking references that no longer exist on the remote)
 
