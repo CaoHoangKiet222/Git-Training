@@ -84,3 +84,7 @@ git fetch -p (Before fetching, remove any remote-tracking references that no lon
 
 git branch -D <branch>
 git push origin :<branch>
+
+## Git pull with rebase
+
+git pull --rebase
