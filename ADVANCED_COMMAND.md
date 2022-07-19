@@ -65,6 +65,7 @@ git tag -d <tagname>
 ## Push tag to github
 
 git push origin <tagname>
+git push --tags -> push all tags
 
 ## Stash
 
