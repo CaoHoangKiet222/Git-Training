@@ -68,6 +68,8 @@ git push origin :<tagname>
 git fetch -p
 git tag -d <tagname>
 
+## Update tag in local
+
 ## Push tag to github
 
 git push origin <tagname>
