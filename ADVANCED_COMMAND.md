@@ -61,6 +61,7 @@ git tag <tagname>
 ## Delete tag
 
 git tag -d <tagname>
+git push origin :<tagname>
 
 ## Push tag to github
 
