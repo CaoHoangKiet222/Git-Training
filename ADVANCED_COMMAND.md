@@ -52,7 +52,7 @@ git tag -l
 
 ## Annotated tag
 
-git tag -a <tagname> -m "tag commit"
+git tag -a <tagname> -m "tag commit" <id>
 
 ## Lightweight tag
 
@@ -61,6 +61,10 @@ git tag <tagname>
 ## Delete tag
 
 git tag -d <tagname>
+
+## Push tag to github
+
+git push origin <tagname>
 
 ## Stash
 
