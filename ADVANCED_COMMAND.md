@@ -52,7 +52,7 @@ git tag -l
 
 ## Annotated tag
 
-git tag -a <tagname> -m "tag commit" <id>
+git tag -a <tagname> -m "tag message" <commit_id>
 
 ## Lightweight tag
 
@@ -69,6 +69,8 @@ git fetch -p
 git tag -d <tagname>
 
 ## Update tag in local
+
+git tag -f <tagname> <commit_id>
 
 ## Push tag to github
 
