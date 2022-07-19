@@ -58,10 +58,15 @@ git tag -a <tagname> -m "tag commit" <id>
 
 git tag <tagname>
 
-## Delete tag
+## Delete tag from local
 
 git tag -d <tagname>
 git push origin :<tagname>
+
+## Delete tag from remote
+
+git fetch -p
+git tag -d <tagname>
 
 ## Push tag to github
 
