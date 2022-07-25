@@ -71,6 +71,7 @@ git tag -d <tagname>
 ## Update tag in local
 
 git tag -f <tagname> <commit_id>
+git push -f origin <tagname>
 
 ## Push tag to github
 
