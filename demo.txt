@@ -1,6 +1,1 @@
 This is demo file skdfjaslkdfsad
-
-hello world
-
-# change demo.txt on Github
-# change on test branch

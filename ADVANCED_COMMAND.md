@@ -52,15 +52,31 @@ git tag -l
 
 ## Annotated tag
 
-git tag -a <tagname> -m "tag commit"
+git tag -a <tagname> -m "tag message" <commit_id>
 
 ## Lightweight tag
 
 git tag <tagname>
 
-## Delete tag
+## Delete tag from local
 
 git tag -d <tagname>
+git push origin :<tagname>
+
+## Delete tag from remote
+
+git fetch -p
+git tag -d <tagname>
+
+## Update tag in local
+
+git tag -f <tagname> <commit_id>
+git push -f origin <tagname>
+
+## Push tag to github
+
+git push origin <tagname>
+git push --tags -> push all tags
 
 ## Stash
 
@@ -88,3 +104,8 @@ git push origin :<branch>
 ## Git pull with rebase
 
 git pull --rebase
+
+## Synchronize changes back to your fork
+
+git remote add <name> <remote_url>
+git pull <name> <branch_name> -p
