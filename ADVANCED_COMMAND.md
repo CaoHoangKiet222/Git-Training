@@ -104,3 +104,8 @@ git push origin :<branch>
 ## Git pull with rebase
 
 git pull --rebase
+
+## Synchronize changes back to your fork
+
+git remote add <name> <remote_url>
+git pull <name> <branch_name> -p
