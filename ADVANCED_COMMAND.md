@@ -109,3 +109,9 @@ git pull --rebase
 
 git remote add <name> <remote_url>
 git pull <name> <branch_name> -p
+
+## Close issue from local
+
+git add <file>
+git commit -m "<message>, close #<number>"
+git push origin <branch>
