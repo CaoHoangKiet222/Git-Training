@@ -115,3 +115,8 @@ git pull <name> <branch_name> -p
 git add <file>
 git commit -m "<message>, close #<number>"
 git push origin <branch>
+
+## Switch and Create new branch
+
+git fetch --all
+git checkout -b <branch_name> <reference>/<branch_name> -> git checkout -b shared-origin origin/shared
